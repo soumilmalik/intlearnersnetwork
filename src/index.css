@@ -1,0 +1,83 @@
+@import "tailwindcss";
+
+@theme {
+  /* Colour tokens */
+  --color-ink: #141b33;
+  --color-ink-2: #262f4d;
+  --color-ink-soft: #4c5370;
+  --color-paper: #faf8f3;
+  --color-paper-alt: #f2ede2;
+  --color-paper-line: #e4ddcd;
+  --color-accent: #c1673c;
+  --color-accent-dark: #a24f2b;
+  --color-accent-hover: #8f4222;
+  --color-accent-light: #d98a5e;
+  --color-accent-soft: #efd9c8;
+  --color-whatsapp: #2f7d5c;
+
+  /* Typography */
+  --font-display: "Fraunces", "Georgia", serif;
+  --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, sans-serif;
+
+  /* Radii */
+  --radius-card: 1.25rem;
+  --radius-pill: 999px;
+
+  --animate-fade-up: fade-up 0.6s ease-out both;
+
+  @keyframes fade-up {
+    from {
+      opacity: 0;
+      transform: translateY(12px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+
+  body {
+    background-color: var(--color-paper);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+  }
+
+  ::selection {
+    background-color: var(--color-accent-soft);
+    color: var(--color-ink);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-accent-dark);
+    outline-offset: 3px;
+    border-radius: 4px;
+  }
+
+  /* On dark (ink) backgrounds, accent-dark's outline contrast drops too low; swap for a lighter tint. */
+  .on-dark :focus-visible {
+    outline-color: var(--color-accent-light);
+  }
+}
