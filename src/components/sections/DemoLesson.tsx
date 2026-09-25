@@ -42,7 +42,7 @@ export function DemoLesson() {
                   className="absolute inset-0 h-full w-full object-cover opacity-80"
                 />
                 <span className="absolute inset-0 bg-ink/35 transition-colors group-hover:bg-ink/25" aria-hidden="true" />
-                <span className="relative flex h-16 w-16 items-center justify-center rounded-full bg-paper text-ink shadow-lg transition-transform group-hover:scale-105 sm:h-20 sm:w-20">
+                <span className="relative flex h-16 w-16 items-center justify-center rounded-full bg-accent text-white shadow-lg transition-transform group-hover:scale-105 sm:h-20 sm:w-20">
                   <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
                     <path d="M8 5v14l11-7Z" />
                   </svg>

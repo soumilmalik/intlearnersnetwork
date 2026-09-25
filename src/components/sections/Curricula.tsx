@@ -12,14 +12,14 @@ export function Curricula() {
           description="Lessons are matched to the terminology, structure, and expectations of your child's own curriculum or exam board."
         />
 
-        <div className="mt-12 grid gap-10 lg:grid-cols-2">
-          <div className="rounded-card border border-paper-line bg-paper-alt/50 p-7 sm:p-8">
+        <div className="mt-12 grid gap-6 lg:grid-cols-2">
+          <div className="rounded-card border border-paper-line bg-paper p-7 sm:p-8">
             <h3 className="text-sm font-semibold uppercase tracking-wide text-ink-soft">School curricula</h3>
             <ul className="mt-5 flex flex-wrap gap-2.5">
               {curricula.map((item) => (
                 <li
                   key={item}
-                  className="rounded-full border border-paper-line bg-paper px-4 py-1.5 text-sm font-medium text-ink"
+                  className="rounded-pill bg-teal-soft px-4 py-1.5 text-sm font-semibold text-teal"
                 >
                   {item}
                 </li>
@@ -27,13 +27,13 @@ export function Curricula() {
             </ul>
           </div>
 
-          <div className="rounded-card border border-paper-line bg-paper-alt/50 p-7 sm:p-8">
+          <div className="rounded-card border border-paper-line bg-paper p-7 sm:p-8">
             <h3 className="text-sm font-semibold uppercase tracking-wide text-ink-soft">Competitive exams</h3>
             <ul className="mt-5 flex flex-wrap gap-2.5">
               {examPrep.map((item) => (
                 <li
                   key={item}
-                  className="rounded-full border border-paper-line bg-paper px-4 py-1.5 text-sm font-medium text-ink"
+                  className="rounded-pill bg-violet-soft px-4 py-1.5 text-sm font-semibold text-violet"
                 >
                   {item}
                 </li>

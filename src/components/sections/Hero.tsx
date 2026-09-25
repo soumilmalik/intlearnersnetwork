@@ -7,12 +7,12 @@ export function Hero() {
     <section id="top" className="relative overflow-hidden pt-14 pb-20 sm:pt-20 sm:pb-28">
       <Container className="grid items-center gap-14 lg:grid-cols-[1.05fr_0.95fr] lg:gap-10">
         <div className="animate-fade-up">
-          <p className="mb-5 text-sm font-medium tracking-wide text-ink-soft">
-            17 years' teaching experience · MA Mathematics · CTET qualified
-          </p>
+          <span className="inline-flex items-center gap-1.5 rounded-pill bg-accent-soft px-3 py-1.5 font-mono text-[0.7rem] font-medium uppercase tracking-[0.08em] text-accent-dark">
+            17 years teaching · MA Mathematics · CTET qualified
+          </span>
 
-          <h1 className="text-balance font-display text-[2.4rem] font-medium leading-[1.1] text-ink sm:text-[3.1rem]">
-            Personal mathematics lessons built around your child
+          <h1 className="mt-5 text-balance font-display text-[2.15rem] font-bold leading-[1.14] text-ink sm:text-[2.9rem]">
+            Personal maths lessons, built around your child
           </h1>
 
           <p className="mt-6 max-w-xl text-balance text-[1.1rem] leading-relaxed text-ink-soft">
@@ -58,48 +58,52 @@ function WhatsAppIcon() {
 function HeroVisual() {
   return (
     <div className="relative mx-auto max-w-md lg:mx-0">
-      <div className="relative overflow-hidden rounded-card border border-paper-line bg-paper-alt px-8 py-12 sm:px-10 sm:py-14">
-        <svg className="absolute inset-0 h-full w-full opacity-[0.35]" aria-hidden="true">
-          <defs>
-            <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
-              <path d="M28 0H0V28" fill="none" stroke="var(--color-ink)" strokeOpacity="0.08" />
-            </pattern>
-          </defs>
-          <rect width="100%" height="100%" fill="url(#grid)" />
-        </svg>
-
-        <svg
-          className="absolute -right-6 -top-6 h-40 w-40 text-ink/[0.06]"
-          viewBox="0 0 100 100"
-          fill="none"
-          aria-hidden="true"
-        >
-          <circle cx="50" cy="50" r="49" stroke="currentColor" strokeWidth="1" />
-          <circle cx="50" cy="50" r="34" stroke="currentColor" strokeWidth="1" />
-        </svg>
-
-        <div className="relative">
-          <svg viewBox="0 0 220 120" className="w-full text-ink" aria-hidden="true">
-            <path
-              d="M6 108C40 108 46 20 92 20C138 20 144 108 214 108"
-              stroke="var(--color-accent)"
-              strokeWidth="2.5"
-              strokeLinecap="round"
-              fill="none"
-            />
-            <line x1="6" y1="108" x2="214" y2="108" stroke="currentColor" strokeOpacity="0.18" strokeWidth="1" />
-            <line x1="6" y1="10" x2="6" y2="108" stroke="currentColor" strokeOpacity="0.18" strokeWidth="1" />
-            <circle cx="92" cy="20" r="4" fill="var(--color-ink)" />
-          </svg>
-
-          <p className="mt-6 font-display text-lg leading-snug text-ink/80">
-            Interactive online lessons, worked through one problem at a time.
-          </p>
+      <div className="relative overflow-hidden rounded-card border border-paper-line bg-paper px-6 py-7 shadow-[0_20px_50px_-25px_rgba(20,22,31,0.25)] sm:px-8 sm:py-8">
+        <div className="flex items-baseline gap-2 font-display">
+          <span className="text-[1.65rem] font-bold leading-tight text-accent sm:text-[1.85rem]">
+            2× faster understanding
+          </span>
         </div>
+        <p className="mt-1.5 text-[0.92rem] leading-relaxed text-ink-soft">
+          Time to understand and solve a new problem — before lessons, and since.
+        </p>
+
+        <svg viewBox="0 0 240 116" className="mt-6 w-full" aria-hidden="true">
+          <rect x="95" y="20" width="125" height="66" fill="var(--color-violet)" opacity="0.08" />
+          <line x1="16" y1="86" x2="224" y2="86" stroke="var(--color-paper-line)" strokeWidth="1" />
+          <polyline
+            points="20,86 70,76 120,36 170,26 220,26"
+            fill="none"
+            stroke="var(--color-violet)"
+            strokeWidth="2.75"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+          <circle cx="20" cy="86" r="3.5" fill="var(--color-ink-soft)" />
+          <circle cx="220" cy="26" r="5" fill="var(--color-accent)" />
+          <text
+            x="170"
+            y="49"
+            textAnchor="middle"
+            fontFamily="var(--font-mono)"
+            fontSize="8.5"
+            fill="var(--color-violet)"
+            fontWeight="600"
+          >
+            steady since
+          </text>
+          <g fontFamily="var(--font-mono)" fontSize="9" fill="var(--color-ink-soft)">
+            <text x="12" y="102">Sep</text>
+            <text x="62" y="102">Oct</text>
+            <text x="112" y="102">Nov</text>
+            <text x="162" y="102">Dec</text>
+            <text x="209" y="102">Jan</text>
+          </g>
+        </svg>
       </div>
 
-      <div className="absolute -bottom-6 -left-4 w-[15.5rem] rounded-2xl border border-paper-line bg-paper px-5 py-4 shadow-[0_10px_30px_-12px_rgba(20,27,51,0.25)] sm:-left-8">
-        <p className="text-xs font-semibold uppercase tracking-wide text-accent-dark">Taught internationally</p>
+      <div className="absolute -bottom-6 -left-4 w-[15.5rem] rounded-2xl border border-paper-line bg-paper px-5 py-4 shadow-[0_10px_30px_-12px_rgba(20,22,31,0.2)] sm:-left-8">
+        <p className="text-xs font-semibold uppercase tracking-wide text-teal">Taught internationally</p>
         <p className="mt-1.5 text-sm leading-snug text-ink-soft">UK · US · Canada · Australia</p>
       </div>
     </div>

@@ -11,11 +11,11 @@ export function FAQ() {
         <div className="mt-10 divide-y divide-paper-line border-y border-paper-line">
           {faqs.map((item) => (
             <details key={item.question} className="group py-5">
-              <summary className="flex cursor-pointer list-none items-center justify-between gap-4 font-display text-[1.05rem] font-medium text-ink marker:content-none">
+              <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-[1.05rem] font-semibold text-ink marker:content-none">
                 {item.question}
                 <span
                   aria-hidden="true"
-                  className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full border border-paper-line text-ink-soft transition-transform group-open:rotate-45"
+                  className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-accent-soft text-accent-dark transition-transform group-open:rotate-45"
                 >
                   +
                 </span>

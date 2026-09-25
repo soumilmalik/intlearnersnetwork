@@ -107,7 +107,7 @@ export function BookingForm() {
             <path d="M5 13l4 4L19 7" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" />
           </svg>
         </div>
-        <h3 className="mt-4 font-display text-xl font-medium text-ink">Almost there</h3>
+        <h3 className="mt-4 font-display text-xl font-semibold text-ink">Almost there</h3>
         <p className="mx-auto mt-2 max-w-sm text-[0.95rem] leading-relaxed text-ink-soft">
           A WhatsApp window has opened with your details ready to send. Confirm it there and Kanika
           will reply to arrange your free 30-minute session.
@@ -140,7 +140,7 @@ export function BookingForm() {
   return (
     <form onSubmit={handleSubmit} noValidate className="rounded-card border border-paper-line bg-paper p-6 sm:p-9">
       {status === "error" && (
-        <p role="alert" className="mb-6 rounded-lg bg-accent-soft/50 px-4 py-3 text-sm font-medium text-accent-dark">
+        <p role="alert" className="mb-6 rounded-lg bg-danger/10 px-4 py-3 text-sm font-medium text-danger">
           Please check the highlighted fields below.
         </p>
       )}
@@ -309,7 +309,7 @@ function inputClasses(hasError: boolean) {
   return [
     "w-full rounded-lg border bg-paper px-3.5 py-2.5 text-[0.95rem] text-ink placeholder:text-ink-soft/50",
     "transition-colors focus:outline-none focus-visible:outline-2 focus-visible:outline-accent-dark focus-visible:outline-offset-2",
-    hasError ? "border-accent-dark/60" : "border-paper-line focus:border-ink/30",
+    hasError ? "border-danger/60" : "border-paper-line focus:border-ink/30",
   ].join(" ");
 }
 
@@ -331,7 +331,7 @@ function Field({
       </label>
       {children}
       {error && (
-        <p id={`${id}-error`} className="mt-1.5 text-xs font-medium text-accent-dark">
+        <p id={`${id}-error`} className="mt-1.5 text-xs font-medium text-danger">
           {error}
         </p>
       )}

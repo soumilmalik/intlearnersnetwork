@@ -1,11 +1,12 @@
 import type { ReactNode } from "react";
 
 export function Eyebrow({ children, tone = "light" }: { children: ReactNode; tone?: "light" | "dark" }) {
-  const colorClass = tone === "dark" ? "text-accent-light" : "text-accent-dark";
-  const lineClass = tone === "dark" ? "bg-accent-light/60" : "bg-accent-dark/60";
+  const classes =
+    tone === "dark" ? "bg-white/10 text-accent-light" : "bg-accent-soft text-accent-dark";
   return (
-    <span className={`inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.14em] ${colorClass}`}>
-      <span aria-hidden="true" className={`h-px w-6 ${lineClass}`} />
+    <span
+      className={`inline-flex items-center gap-1.5 rounded-pill px-3 py-1.5 font-mono text-[0.7rem] font-medium uppercase tracking-[0.08em] ${classes}`}
+    >
       {children}
     </span>
   );
@@ -31,7 +32,7 @@ export function SectionHeading({
           <Eyebrow>{eyebrow}</Eyebrow>
         </div>
       )}
-      <h2 id={id} className="text-balance font-display text-[1.75rem] font-medium leading-[1.15] text-ink sm:text-[2.25rem]">
+      <h2 id={id} className="text-balance font-display text-[1.6rem] font-bold leading-[1.18] text-ink sm:text-[2.1rem]">
         {title}
       </h2>
       {description && (

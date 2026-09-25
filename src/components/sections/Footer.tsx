@@ -16,7 +16,7 @@ export function Footer() {
       <Container className="py-14">
         <div className="grid gap-10 sm:grid-cols-[1.2fr_1fr_1fr]">
           <div>
-            <p className="font-display text-lg font-medium text-ink">{siteConfig.businessName}</p>
+            <p className="font-display text-lg font-bold text-ink">{siteConfig.businessName}</p>
             <p className="mt-3 max-w-xs text-sm leading-relaxed text-ink-soft">
               Online mathematics tutoring with {siteConfig.tutorName}, for students in the UK, US,
               Canada, and Australia.
@@ -24,7 +24,7 @@ export function Footer() {
           </div>
 
           <div>
-            <p className="text-xs font-semibold uppercase tracking-wide text-ink-soft">Navigate</p>
+            <p className="font-mono text-xs font-semibold uppercase tracking-wide text-ink-soft">Navigate</p>
             <ul className="mt-4 space-y-2.5">
               {footerLinks.map((link) => (
                 <li key={link.href}>
@@ -37,7 +37,7 @@ export function Footer() {
           </div>
 
           <div>
-            <p className="text-xs font-semibold uppercase tracking-wide text-ink-soft">Contact</p>
+            <p className="font-mono text-xs font-semibold uppercase tracking-wide text-ink-soft">Contact</p>
             <ul className="mt-4 space-y-2.5 text-sm text-ink-soft">
               <li>
                 <a href={`mailto:${siteConfig.contactEmail}`} className="hover:text-ink">

@@ -8,16 +8,16 @@ export function About() {
       <Container className="grid gap-12 lg:grid-cols-[0.85fr_1.15fr] lg:gap-16">
         <div>
           <Eyebrow>About the tutor</Eyebrow>
-          <h2 className="mt-4 text-balance font-display text-[1.9rem] font-medium leading-[1.15] text-ink sm:text-[2.3rem]">
+          <h2 className="mt-4 text-balance font-display text-[1.9rem] font-bold leading-[1.15] text-ink sm:text-[2.3rem]">
             Kanika Sehgal Arora
           </h2>
           <p className="mt-3 text-[1.05rem] text-ink-soft">Mathematics tutor, International Learners' Network</p>
 
-          <dl className="mt-8 grid grid-cols-2 gap-x-6 gap-y-5 border-t border-paper-line pt-8 sm:max-w-sm">
+          <dl className="mt-8 flex flex-wrap gap-2.5 border-t border-paper-line pt-8">
             {qualifications.map((q) => (
               <div key={q}>
                 <dt className="sr-only">Qualification</dt>
-                <dd className="text-[0.95rem] font-medium leading-snug text-ink">{q}</dd>
+                <dd className="rounded-pill bg-paper-alt px-3.5 py-1.5 text-[0.9rem] font-semibold text-ink">{q}</dd>
               </div>
             ))}
           </dl>

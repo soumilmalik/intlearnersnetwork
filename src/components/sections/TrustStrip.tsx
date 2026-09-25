@@ -1,20 +1,31 @@
 import { Container } from "../ui/Container";
 
 const items = [
-  { label: "17 years of teaching experience" },
-  { label: "One-to-one lessons" },
-  { label: "International curricula" },
-  { label: "Homework and exam support" },
-];
+  { label: "17 years of teaching experience", tone: "coral" },
+  { label: "One-to-one lessons", tone: "teal" },
+  { label: "International curricula", tone: "violet" },
+  { label: "Homework and exam support", tone: "yellow" },
+] as const;
+
+const toneClasses: Record<(typeof items)[number]["tone"], string> = {
+  coral: "bg-accent-soft text-accent-dark",
+  teal: "bg-teal-soft text-teal",
+  violet: "bg-violet-soft text-violet",
+  yellow: "bg-yellow-soft text-[#8a5a12]",
+};
 
 export function TrustStrip() {
   return (
     <section aria-label="At a glance" className="border-y border-paper-line bg-paper-alt/60">
       <Container>
-        <ul className="grid grid-cols-2 gap-y-6 py-8 text-center sm:grid-cols-4 sm:gap-x-6 sm:py-9">
+        <ul className="grid grid-cols-2 gap-3 py-8 sm:grid-cols-4 sm:gap-4 sm:py-9">
           {items.map((item) => (
-            <li key={item.label} className="px-2 text-[0.92rem] font-medium text-ink-soft sm:text-[0.95rem]">
-              {item.label}
+            <li key={item.label} className="flex justify-center">
+              <span
+                className={`inline-flex items-center rounded-pill px-3.5 py-2 text-center text-[0.85rem] font-semibold leading-snug sm:text-[0.9rem] ${toneClasses[item.tone]}`}
+              >
+                {item.label}
+              </span>
             </li>
           ))}
         </ul>

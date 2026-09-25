@@ -11,11 +11,11 @@ const sizes: Record<ButtonSize, string> = {
 
 const variants: Record<ButtonVariant, string> = {
   primary:
-    "bg-accent-dark text-paper shadow-[0_1px_0_rgba(0,0,0,0.05)] hover:bg-accent-hover active:bg-accent-hover",
+    "bg-accent text-white shadow-[0_1px_0_rgba(0,0,0,0.05)] hover:bg-accent-hover active:bg-accent-hover",
   secondary:
     "bg-transparent text-ink border border-ink/20 hover:border-ink/40 hover:bg-ink/5",
   whatsapp:
-    "bg-transparent text-whatsapp border border-whatsapp/30 hover:bg-whatsapp/8 hover:border-whatsapp/50",
+    "bg-whatsapp-soft text-whatsapp border border-whatsapp/20 hover:bg-whatsapp/15 hover:border-whatsapp/40",
   ghost: "bg-transparent text-ink hover:bg-ink/5",
 };
 

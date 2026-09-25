@@ -2,22 +2,34 @@
 
 @theme {
   /* Colour tokens */
-  --color-ink: #141b33;
-  --color-ink-2: #262f4d;
-  --color-ink-soft: #4c5370;
-  --color-paper: #faf8f3;
-  --color-paper-alt: #f2ede2;
-  --color-paper-line: #e4ddcd;
-  --color-accent: #c1673c;
-  --color-accent-dark: #a24f2b;
-  --color-accent-hover: #8f4222;
-  --color-accent-light: #d98a5e;
-  --color-accent-soft: #efd9c8;
-  --color-whatsapp: #2f7d5c;
+  --color-ink: #14161f;
+  --color-ink-soft: #565b6b;
+  --color-paper: #ffffff;
+  --color-paper-alt: #f6f7fb;
+  --color-paper-line: #e7e9f0;
+
+  --color-accent: #ff5a36;
+  --color-accent-dark: #e14a26;
+  --color-accent-hover: #c93d1c;
+  --color-accent-light: #ff8a68;
+  --color-accent-soft: #ffe4da;
+
+  --color-teal: #0f9e9e;
+  --color-teal-soft: #dcf2f2;
+  --color-violet: #5b4fe0;
+  --color-violet-soft: #e7e4fb;
+  --color-yellow: #f2b134;
+  --color-yellow-soft: #fdedcf;
+
+  --color-whatsapp: #1da851;
+  --color-whatsapp-soft: #e3f6ea;
+
+  --color-danger: #d92d20;
 
   /* Typography */
-  --font-display: "Fraunces", "Georgia", serif;
-  --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-display: "Unbounded", "Arial Black", sans-serif;
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, "SFMono-Regular", monospace;
 
   /* Radii */
   --radius-card: 1.25rem;

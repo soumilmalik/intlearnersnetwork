@@ -30,7 +30,7 @@ export function Header() {
       <Container className="flex h-16 items-center justify-between sm:h-20">
         <a
           href="#top"
-          className="flex items-center gap-2.5 font-display text-[1.05rem] font-medium tracking-tight text-ink sm:text-[1.15rem]"
+          className="flex items-center gap-2.5 font-display text-[0.95rem] font-bold text-ink sm:text-[1.05rem]"
         >
           <span aria-hidden="true" className="flex h-8 w-8 items-center justify-center rounded-lg bg-ink text-paper">
             <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
@@ -47,7 +47,7 @@ export function Header() {
             <a
               key={link.href}
               href={link.href}
-              className="text-sm font-medium text-ink-soft transition-colors hover:text-ink"
+              className="text-sm font-semibold text-ink-soft transition-colors hover:text-ink"
             >
               {link.label}
             </a>
