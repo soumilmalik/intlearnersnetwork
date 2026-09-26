@@ -1,10 +1,10 @@
 import { Container } from "../ui/Container";
 
 const items = [
-  { label: "17 years of teaching experience", tone: "coral" },
-  { label: "One-to-one lessons", tone: "teal" },
-  { label: "International curricula", tone: "violet" },
-  { label: "Homework and exam support", tone: "yellow" },
+  { label: "17 Years of Teaching Experience", tone: "coral" },
+  { label: "One-to-One Lessons", tone: "teal" },
+  { label: "International Curricula", tone: "violet" },
+  { label: "Homework and Exam Support", tone: "yellow" },
 ] as const;
 
 const toneClasses: Record<(typeof items)[number]["tone"], string> = {

@@ -23,14 +23,14 @@ export function Experience() {
       <Container>
         <SectionHeading
           eyebrow="Experience"
-          title="Seventeen years across classrooms and online lessons"
+          title="Seventeen Years Across Classrooms and Online Lessons"
           description="A selection of school and online tutoring roles, spanning subject coordination, multiple year groups, and international online teaching."
         />
 
         <div className="mt-14 grid gap-14 lg:grid-cols-2 lg:gap-16">
           <div>
             <h3 className="mb-7 font-mono text-xs font-semibold uppercase tracking-wide text-ink-soft">
-              School mathematics teaching, Delhi &amp; Ghaziabad
+              School Mathematics Teaching, Delhi &amp; Ghaziabad
             </h3>
             <ol className="space-y-0">
               {schoolExperience.map((item) => (
@@ -41,7 +41,7 @@ export function Experience() {
 
           <div>
             <h3 className="mb-7 font-mono text-xs font-semibold uppercase tracking-wide text-ink-soft">
-              Online teaching and tutoring
+              Online Teaching and Tutoring
             </h3>
             <ol className="space-y-0">
               {onlineExperience.map((item) => (

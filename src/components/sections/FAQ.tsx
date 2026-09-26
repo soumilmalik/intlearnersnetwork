@@ -6,7 +6,7 @@ export function FAQ() {
   return (
     <section id="faq" className="border-t border-paper-line py-20 sm:py-28">
       <Container className="max-w-3xl">
-        <SectionHeading eyebrow="FAQ" title="Common questions from parents" />
+        <SectionHeading eyebrow="FAQ" title="Common Questions From Parents" />
 
         <div className="mt-10 divide-y divide-paper-line border-y border-paper-line">
           {faqs.map((item) => (

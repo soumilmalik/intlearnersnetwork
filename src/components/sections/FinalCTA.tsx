@@ -6,7 +6,7 @@ export function FinalCTA() {
     <section className="py-20 sm:py-24">
       <Container className="flex flex-col items-center gap-6 text-center">
         <h2 className="text-balance font-display text-[1.9rem] font-bold leading-[1.15] text-ink sm:text-[2.3rem]">
-          Book your free 30-minute session
+          Book Your Free 30-Minute Session
         </h2>
         <p className="max-w-md text-balance text-[1.02rem] leading-relaxed text-ink-soft">
           A relaxed first conversation — no obligation, just a chance to see whether the lessons

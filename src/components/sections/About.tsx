@@ -7,7 +7,7 @@ export function About() {
     <section id="about" className="border-t border-paper-line bg-paper-alt/40 py-20 sm:py-28">
       <Container className="grid gap-12 lg:grid-cols-[0.85fr_1.15fr] lg:gap-16">
         <div>
-          <Eyebrow>About the tutor</Eyebrow>
+          <Eyebrow>About the Tutor</Eyebrow>
           <h2 className="mt-4 text-balance font-display text-[1.9rem] font-bold leading-[1.15] text-ink sm:text-[2.3rem]">
             Kanika Sehgal Arora
           </h2>

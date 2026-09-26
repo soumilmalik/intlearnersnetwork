@@ -26,32 +26,32 @@ export const qualifications = [
 
 export const lessonPillars = [
   {
-    title: "Personalised one-to-one tutoring",
+    title: "Personalised One-to-One Tutoring",
     description:
       "Every session is planned around one student — their syllabus, their pace, and the topics they find hardest.",
   },
   {
-    title: "Homework guidance that builds understanding",
+    title: "Homework Guidance That Builds Understanding",
     description:
       "Support that walks through the reasoning behind each problem, so the student learns to solve similar questions independently.",
   },
   {
-    title: "Curriculum-aligned learning",
+    title: "Curriculum-Aligned Learning",
     description:
       "Lessons follow the terminology, methods, and structure of the student's own school syllabus and exam board.",
   },
   {
-    title: "Exam preparation and problem-solving strategies",
+    title: "Exam Preparation and Problem-Solving Strategies",
     description:
       "Focused practice on the question styles and reasoning skills that matter for a student's specific assessment.",
   },
   {
-    title: "Interactive online sessions",
+    title: "Interactive Online Sessions",
     description:
       "Lessons are conversational and visual, with the student working through problems alongside the tutor rather than watching a lecture.",
   },
   {
-    title: "Paced to the student's confidence",
+    title: "Paced to the Student's Confidence",
     description:
       "The pace adjusts to how quickly a student is ready to move — revisiting a topic for as long as it takes to feel secure.",
   },
@@ -119,16 +119,16 @@ export const tutoringPlatforms: string[] = [
 
 export const howItWorksSteps = [
   {
-    title: "Book a free 30-minute session",
+    title: "Book a Free 30-Minute Session",
     description: "Choose a time that works for your family using the booking section below.",
   },
   {
-    title: "Discuss goals and challenges",
+    title: "Discuss Goals and Challenges",
     description:
       "Talk through the student's curriculum, current level, and the areas that need the most attention.",
   },
   {
-    title: "Begin a personalised learning plan",
+    title: "Begin a Personalised Learning Plan",
     description:
       "Start regular one-to-one lessons built around the student's syllabus, pace, and confidence.",
   },

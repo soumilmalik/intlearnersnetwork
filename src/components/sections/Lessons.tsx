@@ -9,8 +9,8 @@ export function Lessons() {
     <section id="lessons" className="py-20 sm:py-28">
       <Container>
         <SectionHeading
-          eyebrow="Lessons tailored to each student"
-          title="Support that adapts to how your child learns"
+          eyebrow="Lessons Tailored to Each Student"
+          title="Support That Adapts to How Your Child Learns"
           description="Every session is planned around one student, not a fixed curriculum pace — so lessons stay useful whether the goal is catching up, keeping steady, or moving ahead."
         />
 

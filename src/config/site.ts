@@ -32,7 +32,4 @@ export const siteConfig = {
 
   whatsappDefaultMessage:
     "Hello, I'm interested in mathematics tutoring with International Learners' Network. I'd like to know more about the free 30-minute session.",
-
-  demoVideoUrl: "https://www.youtube.com/watch?v=QINtzFB0dug&t=45s",
-  demoVideoEmbedId: "QINtzFB0dug",
 } as const;

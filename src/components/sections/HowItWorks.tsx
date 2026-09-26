@@ -11,8 +11,8 @@ export function HowItWorks() {
       <Container>
         <SectionHeading
           align="center"
-          eyebrow="How it works"
-          title="Three simple steps to get started"
+          eyebrow="How It Works"
+          title="Three Simple Steps to Get Started"
         />
 
         <ol className="mt-14 grid gap-10 sm:grid-cols-3 sm:gap-8">

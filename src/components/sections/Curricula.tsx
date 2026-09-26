@@ -7,14 +7,14 @@ export function Curricula() {
     <section id="curricula" className="py-20 sm:py-28">
       <Container>
         <SectionHeading
-          eyebrow="Curricula and exam support"
-          title="Comfortable across the syllabus your school follows"
+          eyebrow="Curricula and Exam Support"
+          title="Comfortable Across the Syllabus Your School Follows"
           description="Lessons are matched to the terminology, structure, and expectations of your child's own curriculum or exam board."
         />
 
         <div className="mt-12 grid gap-6 lg:grid-cols-2">
           <div className="rounded-card border border-paper-line bg-paper p-7 sm:p-8">
-            <h3 className="text-sm font-semibold uppercase tracking-wide text-ink-soft">School curricula</h3>
+            <h3 className="text-sm font-semibold uppercase tracking-wide text-ink-soft">School Curricula</h3>
             <ul className="mt-5 flex flex-wrap gap-2.5">
               {curricula.map((item) => (
                 <li
@@ -28,7 +28,7 @@ export function Curricula() {
           </div>
 
           <div className="rounded-card border border-paper-line bg-paper p-7 sm:p-8">
-            <h3 className="text-sm font-semibold uppercase tracking-wide text-ink-soft">Competitive exams</h3>
+            <h3 className="text-sm font-semibold uppercase tracking-wide text-ink-soft">Competitive Exams</h3>
             <ul className="mt-5 flex flex-wrap gap-2.5">
               {examPrep.map((item) => (
                 <li

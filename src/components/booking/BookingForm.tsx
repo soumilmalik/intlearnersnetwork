@@ -107,7 +107,7 @@ export function BookingForm() {
             <path d="M5 13l4 4L19 7" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" />
           </svg>
         </div>
-        <h3 className="mt-4 font-display text-xl font-semibold text-ink">Almost there</h3>
+        <h3 className="mt-4 font-display text-xl font-semibold text-ink">Almost There</h3>
         <p className="mx-auto mt-2 max-w-sm text-[0.95rem] leading-relaxed text-ink-soft">
           A WhatsApp window has opened with your details ready to send. Confirm it there and Kanika
           will reply to arrange your free 30-minute session.

@@ -21,9 +21,9 @@ export function BookingSection() {
 
       <Container className="relative grid gap-12 lg:grid-cols-[0.9fr_1.1fr] lg:gap-16">
         <div className="on-dark text-paper">
-          <Eyebrow tone="dark">Free 30-minute session</Eyebrow>
+          <Eyebrow tone="dark">Free 30-Minute Session</Eyebrow>
           <h2 className="mt-4 text-balance font-display text-[2rem] font-bold leading-[1.15] sm:text-[2.5rem]">
-            Start with a free 30-minute session
+            Start With a Free 30-Minute Session
           </h2>
           <p className="mt-5 max-w-md text-balance text-[1.05rem] leading-relaxed text-paper/75">
             Meet the tutor, discuss the student's learning needs, and see whether the lessons are

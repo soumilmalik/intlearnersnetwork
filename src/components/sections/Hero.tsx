@@ -8,11 +8,11 @@ export function Hero() {
       <Container className="grid items-center gap-14 lg:grid-cols-[1.05fr_0.95fr] lg:gap-10">
         <div className="animate-fade-up">
           <span className="inline-flex items-center gap-1.5 rounded-pill bg-accent-soft px-3 py-1.5 font-mono text-[0.7rem] font-medium uppercase tracking-[0.08em] text-accent-dark">
-            17 years teaching · MA Mathematics · CTET qualified
+            17 Years Teaching · MA Mathematics · CTET Qualified
           </span>
 
           <h1 className="mt-5 text-balance font-display text-[2.15rem] font-bold leading-[1.14] text-ink sm:text-[2.9rem]">
-            Personal maths lessons, built around your child
+            Personal Maths Lessons, Built Around Your Child
           </h1>
 
           <p className="mt-6 max-w-xl text-balance text-[1.1rem] leading-relaxed text-ink-soft">

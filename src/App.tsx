@@ -6,7 +6,6 @@ import { Curricula } from "./components/sections/Curricula";
 import { About } from "./components/sections/About";
 import { Experience } from "./components/sections/Experience";
 import { HowItWorks } from "./components/sections/HowItWorks";
-import { DemoLesson } from "./components/sections/DemoLesson";
 import { BookingSection } from "./components/sections/BookingSection";
 import { FAQ } from "./components/sections/FAQ";
 import { FinalCTA } from "./components/sections/FinalCTA";
@@ -33,7 +32,6 @@ function App() {
         <About />
         <Experience />
         <HowItWorks />
-        <DemoLesson />
         <BookingSection />
         <FAQ />
         <FinalCTA />
