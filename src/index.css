@@ -14,12 +14,8 @@
   --color-accent-light: #ff8a68;
   --color-accent-soft: #ffe4da;
 
-  --color-teal: #0f9e9e;
-  --color-teal-soft: #dcf2f2;
+  /* Used only in the hero's progress chart, not as a decorative accent. */
   --color-violet: #5b4fe0;
-  --color-violet-soft: #e7e4fb;
-  --color-yellow: #f2b134;
-  --color-yellow-soft: #fdedcf;
 
   --color-whatsapp: #1da851;
   --color-whatsapp-soft: #e3f6ea;

@@ -103,7 +103,7 @@ function HeroVisual() {
       </div>
 
       <div className="absolute -bottom-6 -left-4 w-[15.5rem] rounded-2xl border border-paper-line bg-paper px-5 py-4 shadow-[0_10px_30px_-12px_rgba(20,22,31,0.2)] sm:-left-8">
-        <p className="text-xs font-semibold uppercase tracking-wide text-teal">Taught internationally</p>
+        <p className="text-xs font-semibold uppercase tracking-wide text-accent-dark">Taught internationally</p>
         <p className="mt-1.5 text-sm leading-snug text-ink-soft">UK · US · Canada · Australia</p>
       </div>
     </div>

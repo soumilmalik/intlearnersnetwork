@@ -3,8 +3,6 @@ import { SectionHeading } from "../ui/SectionHeading";
 import { ButtonLink } from "../ui/Button";
 import { howItWorksSteps } from "../../config/content";
 
-const stepColors = ["text-accent", "text-teal", "text-violet"];
-
 export function HowItWorks() {
   return (
     <section id="how-it-works" className="border-t border-paper-line bg-paper-alt/40 py-20 sm:py-28">
@@ -18,7 +16,7 @@ export function HowItWorks() {
         <ol className="mt-14 grid gap-10 sm:grid-cols-3 sm:gap-8">
           {howItWorksSteps.map((step, index) => (
             <li key={step.title} className="text-center sm:text-left">
-              <span className={`font-display text-3xl font-bold ${stepColors[index % stepColors.length]}`}>
+              <span className="font-display text-3xl font-bold text-accent">
                 {String(index + 1).padStart(2, "0")}
               </span>
               <h3 className="mt-3 font-display text-lg font-semibold text-ink">{step.title}</h3>

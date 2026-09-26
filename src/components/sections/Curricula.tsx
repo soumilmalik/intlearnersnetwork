@@ -19,7 +19,7 @@ export function Curricula() {
               {curricula.map((item) => (
                 <li
                   key={item}
-                  className="rounded-pill bg-teal-soft px-4 py-1.5 text-sm font-semibold text-teal"
+                  className="rounded-pill bg-accent-soft px-4 py-1.5 text-sm font-semibold text-accent-dark"
                 >
                   {item}
                 </li>
@@ -33,7 +33,7 @@ export function Curricula() {
               {examPrep.map((item) => (
                 <li
                   key={item}
-                  className="rounded-pill bg-violet-soft px-4 py-1.5 text-sm font-semibold text-violet"
+                  className="rounded-pill bg-paper-alt px-4 py-1.5 text-sm font-semibold text-ink"
                 >
                   {item}
                 </li>
