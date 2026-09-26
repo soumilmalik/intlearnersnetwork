@@ -65,9 +65,10 @@ export function Footer() {
             [PRIVACY POLICY placeholder — add a full privacy policy before collecting personal data
             at scale.]
           </p>
-          <p className="mt-4 text-xs text-ink-soft/70">
-            © {new Date().getFullYear()} {siteConfig.businessName}. All rights reserved.
-          </p>
+          <div className="mt-4 flex flex-col gap-1.5 text-xs text-ink-soft/70 sm:flex-row sm:items-center sm:justify-between">
+            <p>© {new Date().getFullYear()} {siteConfig.businessName}. All rights reserved.</p>
+            <p>Built by SNS Automation</p>
+          </div>
         </div>
       </Container>
     </footer>
