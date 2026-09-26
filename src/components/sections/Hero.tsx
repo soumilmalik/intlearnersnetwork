@@ -57,7 +57,7 @@ function WhatsAppIcon() {
 
 function HeroVisual() {
   return (
-    <div className="relative mx-auto max-w-md lg:mx-0">
+    <div className="relative mx-auto max-w-md lg:mx-0 lg:max-w-xl">
       <div className="relative overflow-hidden rounded-card border border-paper-line bg-paper px-6 py-7 shadow-[0_20px_50px_-25px_rgba(20,22,31,0.25)] sm:px-8 sm:py-8">
         <div className="flex items-baseline gap-2 font-display">
           <span className="text-[1.65rem] font-bold leading-tight text-accent sm:text-[1.85rem]">
