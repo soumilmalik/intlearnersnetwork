@@ -4,6 +4,8 @@ import { defineConfig } from 'vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/intlearnersnetwork/',
+  // GitHub Pages serves this repo from a /intlearnersnetwork/ subpath; every
+  // other host (Netlify, a custom domain) serves it from the root.
+  base: process.env.GITHUB_PAGES ? '/intlearnersnetwork/' : '/',
   plugins: [react(), tailwindcss()],
 })
