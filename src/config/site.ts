@@ -15,12 +15,6 @@ export const siteConfig = {
   whatsappNumber: "919650515446",
 
   /**
-   * PLACEHOLDER — replace with a real inbox before launch.
-   * Used in the footer and as the form's mailto fallback.
-   */
-  contactEmail: "hello@internationallearnersnetwork.com",
-
-  /**
    * PLACEHOLDER — no scheduling link was supplied.
    * bookingUrl stays empty, so every "Book a free session" button
    * scrolls to the on-page booking section instead of an external link.

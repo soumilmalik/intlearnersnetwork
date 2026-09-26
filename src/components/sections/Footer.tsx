@@ -1,6 +1,6 @@
 import { Container } from "../ui/Container";
 import { siteConfig } from "../../config/site";
-import { buildWhatsAppLink } from "../../lib/whatsapp";
+import { buildWhatsAppLink, formatDisplayPhone } from "../../lib/whatsapp";
 
 const footerLinks = [
   { label: "About", href: "#about" },
@@ -40,11 +40,6 @@ export function Footer() {
             <p className="font-mono text-xs font-semibold uppercase tracking-wide text-ink-soft">Contact</p>
             <ul className="mt-4 space-y-2.5 text-sm text-ink-soft">
               <li>
-                <a href={`mailto:${siteConfig.contactEmail}`} className="hover:text-ink">
-                  {siteConfig.contactEmail}
-                </a>
-              </li>
-              <li>
                 <a
                   href={buildWhatsAppLink()}
                   target="_blank"
@@ -54,6 +49,7 @@ export function Footer() {
                   WhatsApp
                 </a>
               </li>
+              <li>{formatDisplayPhone()}</li>
             </ul>
           </div>
         </div>
@@ -67,7 +63,17 @@ export function Footer() {
           </p>
           <div className="mt-4 flex flex-col gap-1.5 text-xs text-ink-soft/70 sm:flex-row sm:items-center sm:justify-between">
             <p>© {new Date().getFullYear()} {siteConfig.businessName}. All rights reserved.</p>
-            <p>Built by SNS Automation</p>
+            <p>
+              Built by{" "}
+              <a
+                href="https://sns-automation-agency.ai.studio/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-medium text-ink-soft underline underline-offset-2 hover:text-ink"
+              >
+                SNS Automation
+              </a>
+            </p>
           </div>
         </div>
       </Container>
