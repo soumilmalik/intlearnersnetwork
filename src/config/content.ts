@@ -57,65 +57,10 @@ export const lessonPillars = [
   },
 ] as const;
 
-export type ExperienceRole = {
-  institution: string;
-  role: string;
-  detail?: string;
-  period: string;
-  ongoing?: boolean;
-};
-
-export const schoolExperience: ExperienceRole[] = [
-  {
-    institution: "St. Mark's Senior Secondary School, Janakpuri, Delhi",
-    role: "TGT Mathematics — Classes 8 and 9",
-    period: "Jul 2010 – Mar 2011",
-  },
-  {
-    institution: "Sachdeva Public School, Rohini, Delhi",
-    role: "TGT Mathematics — Classes 6–9",
-    detail: "Subject Coordinator, Grades 7 and 8",
-    period: "Apr 2011 – Mar 2013",
-  },
-  {
-    institution: "Presidium School, Ashok Vihar, Delhi",
-    role: "TGT Mathematics — Classes 6–8",
-    detail: "Subject Coordinator, Grade 6",
-    period: "Mar 2013 – Dec 2015",
-  },
-  {
-    institution: "Presidium School, Indirapuram, Ghaziabad",
-    role: "TGT Mathematics — Classes 7, 9 and 10",
-    detail: "Subject Coordinator, Grade 10",
-    period: "Jul 2016 – Mar 2019",
-  },
-];
-
-export const onlineExperience: ExperienceRole[] = [
-  {
-    institution: "WhiteHat Jr",
-    role: "Teacher of Mathematics and Coding",
-    period: "Jul 2020 – Sep 2022",
-  },
-  {
-    institution: "Edvi",
-    role: "Academic Coordinator and Mathematics Tutor",
-    period: "Jul 2022 – Apr 2023",
-  },
-];
-
-/**
- * Roles described in source material as ongoing/"till date" without a
- * confirmed end date. Presented as experience rather than current
- * employment per client instruction — do not add "current" language here.
- */
-export const tutoringPlatforms: string[] = [
-  "Brillianceway (GCSE Mathematics)",
-  "Knowledge Hub",
-  "Kiya Learning",
-  "Lesson Board",
-  "Dharma Learning",
-];
+export const trackRecord = [
+  { value: "17+", label: "Years of teaching experience" },
+  { value: "1,000+", label: "Students mentored" },
+] as const;
 
 export const howItWorksSteps = [
   {

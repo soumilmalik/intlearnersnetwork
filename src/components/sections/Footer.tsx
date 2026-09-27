@@ -5,7 +5,6 @@ import { buildWhatsAppLink, formatDisplayPhone } from "../../lib/whatsapp";
 const footerLinks = [
   { label: "About", href: "#about" },
   { label: "Lessons", href: "#lessons" },
-  { label: "Experience", href: "#experience" },
   { label: "FAQ", href: "#faq" },
   { label: "Book a session", href: "#booking" },
 ];

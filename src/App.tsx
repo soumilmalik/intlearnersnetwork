@@ -4,7 +4,6 @@ import { TrustStrip } from "./components/sections/TrustStrip";
 import { Lessons } from "./components/sections/Lessons";
 import { Curricula } from "./components/sections/Curricula";
 import { About } from "./components/sections/About";
-import { Experience } from "./components/sections/Experience";
 import { HowItWorks } from "./components/sections/HowItWorks";
 import { BookingSection } from "./components/sections/BookingSection";
 import { FAQ } from "./components/sections/FAQ";
@@ -30,7 +29,6 @@ function App() {
         <Lessons />
         <Curricula />
         <About />
-        <Experience />
         <HowItWorks />
         <BookingSection />
         <FAQ />

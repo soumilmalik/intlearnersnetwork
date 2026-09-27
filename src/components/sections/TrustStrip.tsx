@@ -1,7 +1,7 @@
 import { Container } from "../ui/Container";
 
 const items = [
-  "17 Years of Teaching Experience",
+  "17+ Years of Teaching Experience",
   "One-to-One Lessons",
   "International Curricula",
   "Homework and Exam Support",
